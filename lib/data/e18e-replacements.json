@@ -1,0 +1,15 @@
+{
+  "$schema": "../../tools/schemas/replacements-schema.json",
+  "e18e": {
+    "packageRules": [
+      {
+        "description": "`array-buffer-byte-length` should be replaced with the native `byteLength` property.",
+        "matchCurrentVersion": "*",
+        "matchDatasources": ["npm"],
+        "matchPackageNames": ["array-buffer-byte-length"],
+        "replacementName": "NONE?",
+        "replacementVersion": "0.0.0"
+      }
+    ]
+  }
+}

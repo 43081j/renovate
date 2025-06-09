@@ -1,6 +1,7 @@
 import replacementGroupsJson from '../../../data/replacements.json';
+import e18eReplacementsData from '../../../data/replacements.json';
 import type { Preset } from '../types';
-import type { PresetTemplate, Replacement } from './auto-generate-replacements';
+import type { PresetTemplate, Replacement, ReplacementRule } from './auto-generate-replacements';
 import { addPresets } from './auto-generate-replacements';
 
 const { $schema, ...replacementPresets } = replacementGroupsJson;
@@ -68,4 +69,29 @@ const messageFormat: PresetTemplate = {
   title: 'messageFormat-to-scoped',
 };
 
-addPresets(presets, messageFormat, mui);
+const { $schema: _$e18eSchema, ...e18eReplacements } = e18eReplacementsData;
+const e18e: PresetTemplate = {
+  description:
+    'The e18e community provides a curated set of recommended packages focused around performance.',
+  packageRules: Object.entries(e18eReplacements as Record<string, Preset>).reduce<ReplacementRule[]>((prev, [_name, replacement]) => {
+    if (replacement.packageRules) {
+      for (const rule of replacement.packageRules) {
+        if (!rule.matchPackageNames) {
+          continue;
+        }
+        prev.push({
+          matchCurrentVersion: rule.matchCurrentVersion,
+          matchDatasources: rule.matchDatasources ?? ['npm'],
+          replacements: [
+            [rule.matchPackageNames, rule.replacementName as string]
+          ],
+          replacementVersion: rule.replacementVersion as string
+        });
+      }
+    }
+    return prev;
+  }, []),
+  title: 'e18e'
+};
+
+addPresets(presets, messageFormat, mui, e18e);
