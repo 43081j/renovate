@@ -3,11 +3,1575 @@
   "e18e": {
     "packageRules": [
       {
-        "description": "`array-buffer-byte-length` should be replaced with the native `byteLength` property.",
+        "description": "`array-buffer-byte-length` should be replaced with the native `ArrayBuffer.prototype.byteLength`",
         "matchCurrentVersion": "*",
-        "matchDatasources": ["npm"],
-        "matchPackageNames": ["array-buffer-byte-length"],
-        "replacementName": "NONE?",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array-buffer-byte-length"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array-every` should be replaced with the native `Array.prototype.every`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array-every"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array-includes` should be replaced with the native `Array.prototype.includes`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array-includes"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array-map` should be replaced with the native `Array.prototype.map`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array-map"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.from` should be replaced with the native `Array.from`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.from"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.of` should be replaced with the native `Array.of`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.of"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.at` should be replaced with the native `Array.prototype.at`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.at"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.concat` should be replaced with the native `Array.prototype.concat`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.concat"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.copywithin` should be replaced with the native `Array.prototype.copyWithin`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.copywithin"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.entries` should be replaced with the native `Array.prototype.entries`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.entries"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.every` should be replaced with the native `Array.prototype.every`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.every"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.filter` should be replaced with the native `Array.prototype.filter`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.filter"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.find` should be replaced with the native `Array.prototype.find`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.find"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.findindex` should be replaced with the native `Array.prototype.findIndex`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.findindex"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.flat` should be replaced with the native `Array.prototype.flat`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.flat"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.flatmap` should be replaced with the native `Array.prototype.flatMap`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.flatmap"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.foreach` should be replaced with the native `Array.prototype.forEach`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.foreach"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.indexof` should be replaced with the native `Array.prototype.indexOf`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.indexof"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.join` should be replaced with the native `Array.prototype.join`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.join"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.keys` should be replaced with the native `Array.prototype.keys`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.keys"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.lastindexof` should be replaced with the native `Array.prototype.lastIndexOf`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.lastindexof"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.map` should be replaced with the native `Array.prototype.map`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.map"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.push` should be replaced with the native `Array.prototype.push`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.push"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.reduce` should be replaced with the native `Array.prototype.reduce`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.reduce"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.reduceright` should be replaced with the native `Array.prototype.reduceRight`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.reduceright"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.slice` should be replaced with the native `Array.prototype.slice`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.slice"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.some` should be replaced with the native `Array.prototype.some`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.some"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.splice` should be replaced with the native `Array.prototype.splice`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.splice"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.unshift` should be replaced with the native `Array.prototype.unshift`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.unshift"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`array.prototype.values` should be replaced with the native `Array.prototype.values`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "array.prototype.values"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`arraybuffer.prototype.slice` should be replaced with the native `ArrayBuffer.prototype.slice`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "arraybuffer.prototype.slice"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`concat-map` should be replaced with the native `Array.prototype.flatMap`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "concat-map"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`data-view-buffer` should be replaced with the native `DataView.prototype.buffer`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "data-view-buffer"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`data-view-byte-length` should be replaced with the native `DataView.prototype.byteLength`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "data-view-byte-length"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`data-view-byte-offset` should be replaced with the native `DataView.prototype.byteOffset`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "data-view-byte-offset"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`date` should be replaced with the native `Date`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "date"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`defaults` should be replaced with the native `Object.assign, or if deep clones are needed, use structuredClone`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "defaults"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`define-accessor-property` should be replaced with the native `Object.defineProperty`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "define-accessor-property"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`define-data-property` should be replaced with the native `Object.defineProperty`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "define-data-property"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`define-properties` should be replaced with the native `Object.defineProperties`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "define-properties"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`error-cause` should be replaced with the native `Use errors `.cause` property and second `Error` constructors argument to define it`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "error-cause"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`es-aggregate-error` should be replaced with the native `AggregateError`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "es-aggregate-error"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`es-create-array-iterator` should be replaced with the native `Array.prototype.{ entries, keys, values, [Symbol.iterator] }`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "es-create-array-iterator"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`es-define-property` should be replaced with the native `Object.defineProperty`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "es-define-property"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`es-errors` should be replaced with the native `Error / EvalError / RangeError / ReferenceError / SyntaxError / TypeError / URIError`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "es-errors"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`es-shim-unscopables` should be replaced with the native `Array.prototype[Symbol.unscopables]`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "es-shim-unscopables"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`es-string-html-methods` should be replaced with the native `String.prototype.{ anchor, big, blink, bold, fixed, fontcolor, fontsize, italics, link, small, strike, sub, sup }`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "es-string-html-methods"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`extend-shallow` should be replaced with the native `Object.assign, or if deep clones are needed, use structuredClone`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "extend-shallow"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`filter-array` should be replaced with the native `Array.prototype.filter`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "filter-array"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`for-each` should be replaced with the native `for...of (using \"Object.entries\" if dealing with objects)`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "for-each"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`function-bind` should be replaced with the native `Function.prototype.bind`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "function-bind"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`function.prototype.name` should be replaced with the native `Use functions `.name` property`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "function.prototype.name"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`functions-have-names` should be replaced with the native `Always `true``",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "functions-have-names"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`get-symbol-description` should be replaced with the native `Symbol.prototype.description`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "get-symbol-description"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`global` should be replaced with the native `globalThis`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "global"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`globalthis` should be replaced with the native `globalThis`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "globalthis"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`gopd` should be replaced with the native `Object.getOwnPropertyDescriptor`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "gopd"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`has` should be replaced with the native `Object.prototype.hasOwnProperty.call(obj, prop) (or in later versions of node, \"Object.hasOwn(obj, prop)\")`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "has"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`has-own-prop` should be replaced with the native `Object.prototype.hasOwnProperty.call(obj, prop) (or in later versions of node, \"Object.hasOwn(obj, prop)\")`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "has-own-prop"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`has-proto` should be replaced with the native `Always `true``",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "has-proto"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`has-symbols` should be replaced with the native `Always `true``",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "has-symbols"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`has-tostringtag` should be replaced with the native `Always `true``",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "has-tostringtag"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`hasown` should be replaced with the native `Object.prototype.hasOwnProperty.call(obj, prop) (or in later versions of node, \"Object.hasOwn(obj, prop)\")`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "hasown"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`index-of` should be replaced with the native `Array.prototype.indexOf`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "index-of"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`inherits` should be replaced with the native `Use native class syntax`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "inherits"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`is-nan` should be replaced with the native `Number.isNaN`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "is-nan"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`iterate-iterator` should be replaced with the native `for...of`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "iterate-iterator"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`iterate-value` should be replaced with the native `for...of`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "iterate-value"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`last-index-of` should be replaced with the native `Array.prototype.lastIndexOf`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "last-index-of"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`left-pad` should be replaced with the native `String.prototype.padStart`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "left-pad"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`math.acosh` should be replaced with the native `Math.acosh`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "math.acosh"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`math.atanh` should be replaced with the native `Math.atanh`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "math.atanh"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`math.cbrt` should be replaced with the native `Math.cbrt`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "math.cbrt"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`math.clz32` should be replaced with the native `Math.clz32`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "math.clz32"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`math.f16round` should be replaced with the native `Math.f16round`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "math.f16round"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`math.fround` should be replaced with the native `Math.fround`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "math.fround"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`math.imul` should be replaced with the native `Math.imul`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "math.imul"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`math.log10` should be replaced with the native `Math.log10`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "math.log10"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`math.log1p` should be replaced with the native `Math.log1p`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "math.log1p"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`math.sign` should be replaced with the native `Math.sign`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "math.sign"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`node.extend` should be replaced with the native `Object.assign, or if deep clones are needed, use structuredClone`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "node.extend"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`number.isfinite` should be replaced with the native `Number.isFinite`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "number.isfinite"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`number.isinteger` should be replaced with the native `Number.isInteger`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "number.isinteger"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`number.isnan` should be replaced with the native `Number.isNaN`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "number.isnan"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`number.issafeinteger` should be replaced with the native `Number.isSafeInteger`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "number.issafeinteger"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`number.parsefloat` should be replaced with the native `Number.parseFloat`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "number.parsefloat"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`number.parseint` should be replaced with the native `Number.parseInt`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "number.parseint"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`number.prototype.toexponential` should be replaced with the native `Number.prototype.toExponential`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "number.prototype.toexponential"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`object-assign` should be replaced with the native `Object.assign`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "object-assign"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`object-is` should be replaced with the native `Object.is`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "object-is"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`object-keys` should be replaced with the native `Object.keys(obj)`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "object-keys"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`object.assign` should be replaced with the native `Object.assign`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "object.assign"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`object.defineproperties` should be replaced with the native `Object.defineProperties`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "object.defineproperties"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`object.entries` should be replaced with the native `Object.entries`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "object.entries"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`object.fromentries` should be replaced with the native `Object.fromEntries`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "object.fromentries"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`object.getownpropertydescriptors` should be replaced with the native `Object.getOwnPropertyDescriptors`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "object.getownpropertydescriptors"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`object.getprototypeof` should be replaced with the native `Object.getPrototypeOf`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "object.getprototypeof"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`object.hasown` should be replaced with the native `Object.hasOwn`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "object.hasown"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`object.keys` should be replaced with the native `Object.keys(obj)`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "object.keys"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`object.values` should be replaced with the native `Object.values`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "object.values"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`pad-left` should be replaced with the native `String.prototype.padStart`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "pad-left"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`parseint` should be replaced with the native `parseInt`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "parseint"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`promise.allsettled` should be replaced with the native `Promise.allSettled`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "promise.allsettled"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`promise.any` should be replaced with the native `Promise.any`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "promise.any"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`promise.prototype.finally` should be replaced with the native `Promise.prototype.finally`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "promise.prototype.finally"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`reflect.getprototypeof` should be replaced with the native `Reflect.getPrototypeOf`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "reflect.getprototypeof"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`reflect.ownkeys` should be replaced with the native `Reflect.ownKeys`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "reflect.ownkeys"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`regexp.prototype.flags` should be replaced with the native `RegExp.prototype.flags (e.g. \"/foo/g.flags\")`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "regexp.prototype.flags"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`string.prototype.at` should be replaced with the native `String.prototype.at`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "string.prototype.at"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`string.prototype.lastindexof` should be replaced with the native `String.prototype.lastIndexOf`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "string.prototype.lastindexof"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`string.prototype.matchall` should be replaced with the native `String.prototype.matchAll`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "string.prototype.matchall"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`string.prototype.padend` should be replaced with the native `String.prototype.padEnd`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "string.prototype.padend"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`string.prototype.padleft` should be replaced with the native `String.prototype.padStart`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "string.prototype.padleft"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`string.prototype.padright` should be replaced with the native `String.prototype.padEnd`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "string.prototype.padright"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`string.prototype.padstart` should be replaced with the native `String.prototype.padStart`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "string.prototype.padstart"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`string.prototype.replaceall` should be replaced with the native `String.prototype.replaceAll`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "string.prototype.replaceall"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`string.prototype.split` should be replaced with the native `String.prototype.split`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "string.prototype.split"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`string.prototype.substr` should be replaced with the native `String.prototype.substr`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "string.prototype.substr"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`string.prototype.trim` should be replaced with the native `String.prototype.trim`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "string.prototype.trim"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`string.prototype.trimend` should be replaced with the native `String.prototype.trimEnd`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "string.prototype.trimend"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`string.prototype.trimleft` should be replaced with the native `String.prototype.trimLeft`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "string.prototype.trimleft"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`string.prototype.trimright` should be replaced with the native `String.prototype.trimRight`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "string.prototype.trimright"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`string.prototype.trimstart` should be replaced with the native `String.prototype.trimStart`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "string.prototype.trimstart"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`string.raw` should be replaced with the native `String.raw`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "string.raw"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`symbol.prototype.description` should be replaced with the native `Symbol.prototype.description`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "symbol.prototype.description"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`typed-array-buffer` should be replaced with the native `%TypedArray%.prototype.buffer`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "typed-array-buffer"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`typed-array-byte-length` should be replaced with the native `%TypedArray%.prototype.byteLength`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "typed-array-byte-length"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`typed-array-byte-offset` should be replaced with the native `%TypedArray%.prototype.byteOffset`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "typed-array-byte-offset"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`typed-array-length` should be replaced with the native `%TypedArray%.prototype.length`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "typed-array-length"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`typedarray.prototype.slice` should be replaced with the native `%TypedArray%.prototype.slice`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "typedarray.prototype.slice"
+        ],
+        "replacementName": "TBD",
+        "replacementVersion": "0.0.0"
+      },
+      {
+        "description": "`xtend` should be replaced with the native `Object.assign, or if deep clones are needed, use structuredClone`",
+        "matchCurrentVersion": "*",
+        "matchDatasources": [
+          "npm"
+        ],
+        "matchPackageNames": [
+          "xtend"
+        ],
+        "replacementName": "TBD",
         "replacementVersion": "0.0.0"
       }
     ]
